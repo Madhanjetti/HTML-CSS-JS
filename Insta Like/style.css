@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: lightseagreen;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+  
+
+}
+#container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+    
+}
+#container i{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    opacity: 0;
+    transition: all ease 0.5s;
+    
+}
